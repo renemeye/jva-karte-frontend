@@ -24,7 +24,7 @@ in the hash portion of the URL:
   `comment=CAR%20crisis%2C%20refugee%20areas%20in%20Cameroon%20%23hotosm-task-592`.
 
 When constructing a URL to an instance of iD embedded in the OpenStreetMap Rails
-Port (e.g. `http://www.openstreetmap.org/edit?editor=id`), the following parameters
+Port (e.g. `http://jva-karte.herokuapp.com/edit?editor=id`), the following parameters
 are available as regular URL query parameters:
 
 * `lat`, `lon`, `zoom` - Self-explanatory.

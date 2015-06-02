@@ -1,0 +1,27 @@
+/*
+===Sidebar optional zum "nur speichern":===
+*/
+
+#sidebar {
+  display: none;
+}
+
+#sidebar.save_sidebar {
+  display: block;
+}
+
+
+#footer {
+  display: none;
+}
+
+
+body, #id-container, .id-container, #bar {
+  min-width: 0;
+}
+
+@media screen and (max-width: 768px)  {
+  #bar {
+      display: none;
+  }
+}

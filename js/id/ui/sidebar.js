@@ -59,6 +59,8 @@ iD.ui.Sidebar = function(context) {
             featureListWrap.classed('inspector-hidden', true);
             inspectorWrap.classed('inspector-hidden', true);
             if (current) current.remove();
+            var d = document.getElementById('sidebar')
+            d.className = d.className + " save_sidebar";
             current = selection.append('div')
                 .attr('class', 'sidebar-component')
                 .call(component);
@@ -67,6 +69,8 @@ iD.ui.Sidebar = function(context) {
         sidebar.hide = function() {
             featureListWrap.classed('inspector-hidden', false);
             inspectorWrap.classed('inspector-hidden', true);
+            var d = document.getElementById('sidebar')
+            d.className = d.className.replace("save_sidebar", "");
             if (current) current.remove();
             current = null;
         };

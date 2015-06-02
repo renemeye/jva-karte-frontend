@@ -1,14 +1,14 @@
 iD.Connection = function() {
     var event = d3.dispatch('authenticating', 'authenticated', 'auth', 'loading', 'loaded'),
-        url = 'http://www.openstreetmap.org',
+        url = 'http://jva-karte.herokuapp.com',
         connection = {},
         inflight = {},
         loadedTiles = {},
         tileZoom = 16,
         oauth = osmAuth({
-            url: 'http://www.openstreetmap.org',
-            oauth_consumer_key: '5A043yRSEugj4DJ5TljuapfnrflWDte8jTOcWLlT',
-            oauth_secret: 'aB3jKq1TRsCOUrfOIZ6oQMEDmv2ptV76PA54NGLL',
+            url: 'http://jva-karte.herokuapp.com',
+            oauth_consumer_key: 'OH5QTVj4UjYsWm011LxgzyVPNV4mTnWMkqYFHb24',
+            oauth_secret: 'rVmHPEsmumxiRilGu70f1XLJHNWd6ZRrl6WBzqrk',
             loading: authenticating,
             done: authenticated
         }),

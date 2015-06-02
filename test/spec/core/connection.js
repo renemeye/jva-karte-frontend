@@ -11,13 +11,13 @@ describe('iD.Connection', function () {
 
     describe('#changesetUrl', function() {
         it('provides a changeset url', function() {
-            expect(c.changesetURL(2)).to.eql('http://www.openstreetmap.org/changeset/2');
+            expect(c.changesetURL(2)).to.eql('http://jva-karte.herokuapp.com/changeset/2');
         });
     });
 
     describe('#userURL', function() {
         it('provides a user url', function() {
-            expect(c.userURL('bob')).to.eql('http://www.openstreetmap.org/user/bob');
+            expect(c.userURL('bob')).to.eql('http://jva-karte.herokuapp.com/user/bob');
         });
     });
 
@@ -97,7 +97,7 @@ describe('iD.Connection', function () {
                 done();
             });
 
-            server.respondWith("GET", "http://www.openstreetmap.org/api/0.6/node/1",
+            server.respondWith("GET", "http://jva-karte.herokuapp.com/api/0.6/node/1",
                 [200, { "Content-Type": "text/xml" }, nodeXML]);
             server.respond();
         });
@@ -110,7 +110,7 @@ describe('iD.Connection', function () {
                 done();
             });
 
-            server.respondWith("GET", "http://www.openstreetmap.org/api/0.6/way/1/full",
+            server.respondWith("GET", "http://jva-karte.herokuapp.com/api/0.6/way/1/full",
                 [200, { "Content-Type": "text/xml" }, wayXML]);
             server.respond();
         });

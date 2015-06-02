@@ -394,14 +394,14 @@ en:
     help: |
       # Help
 
-      This is an editor for [OpenStreetMap](http://www.openstreetmap.org/), the
+      This is an editor for [OpenStreetMap](http://jva-karte.herokuapp.com/), the
       free and editable map of the world. You can use it to add and update
       data in your area, making an open-source and open-data map of the world
       better for everyone.
 
       Edits that you make on this map will be visible to everyone who uses
       OpenStreetMap. In order to make an edit, you'll need to
-      [log in](https://www.openstreetmap.org/login).
+      [log in](https://jva-karte.herokuapp.com/login).
 
       The [iD editor](http://ideditor.com/) is a collaborative project with [source
       code available on GitHub](https://github.com/openstreetmap/iD).
@@ -435,7 +435,7 @@ en:
 
       If everything looks good, you can enter a short comment explaining the change
       you made, and click 'Save' again to post the changes
-      to [OpenStreetMap.org](http://www.openstreetmap.org/), where they are visible
+      to [OpenStreetMap.org](http://jva-karte.herokuapp.com/), where they are visible
       to all other users and available for others to build and improve upon.
 
       If you can't finish your edits in one sitting, you can leave the editor
@@ -515,7 +515,7 @@ en:
 
       The GPX track isn't directly uploaded to OpenStreetMap - the best way to
       use it is to draw on the map, using it as a guide for the new features that
-      you add, and also to [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create)
+      you add, and also to [upload it to OpenStreetMap](http://jva-karte.herokuapp.com/trace/create)
       for other users to use.
     imagery: |
       # Imagery

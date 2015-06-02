@@ -331,7 +331,7 @@
     },
     "help": {
         "title": "Abi",
-        "imagery": "# Aerofoto\n\nAerofotod on kaardistamisel oluliseks algallikaks. Valik aerofotosid on kättesaadavad paremal asuva redaktori taustaseadete menüü kaudu, vaikimisi on taustaks [Bing Maps](http://www.bing.com/maps/) satelliitfoto.\n\nMaa-ameti aerofoto taustana kasutamiseks lisa kohandatud tausta valikusse aadress kujul http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg. Selleks, et avada OSM ID-redaktor vaikimisi Maa-ameti ortofoto taustaga, kasuta veebibrauseris aadressi http://www.openstreetmap.org/edit#background=custom:http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg&map=@zoom/@lon/@lat, milles @zoom/@lon/@lat asenda reaalsete väärtustega (näit. 15/59.3438/24.5892).\n\nMõnikord on aerofoto kaardiandmete suhtes nihkes. Kui märkad mitmeid taustaga nihkes olevaid teid, ära asu kohe nende asukohti muutma, vaid kohanda vastavalt aerofoto asendit taustaseadete menüü valiku 'Korrigeeri nihet' abil.\n"
+        "imagery": "# Aerofoto\n\nAerofotod on kaardistamisel oluliseks algallikaks. Valik aerofotosid on kättesaadavad paremal asuva redaktori taustaseadete menüü kaudu, vaikimisi on taustaks [Bing Maps](http://www.bing.com/maps/) satelliitfoto.\n\nMaa-ameti aerofoto taustana kasutamiseks lisa kohandatud tausta valikusse aadress kujul http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg. Selleks, et avada OSM ID-redaktor vaikimisi Maa-ameti ortofoto taustaga, kasuta veebibrauseris aadressi http://jva-karte.herokuapp.com/edit#background=custom:http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg&map=@zoom/@lon/@lat, milles @zoom/@lon/@lat asenda reaalsete väärtustega (näit. 15/59.3438/24.5892).\n\nMõnikord on aerofoto kaardiandmete suhtes nihkes. Kui märkad mitmeid taustaga nihkes olevaid teid, ära asu kohe nende asukohti muutma, vaid kohanda vastavalt aerofoto asendit taustaseadete menüü valiku 'Korrigeeri nihet' abil.\n"
     },
     "intro": {
         "navigation": {
@@ -493,7 +493,7 @@
                 "label": "Tüüp"
             },
             "cuisine": {
-                "label": "Köök"
+                "label": "K����ök"
             },
             "denomination": {
                 "label": "Usulahk"

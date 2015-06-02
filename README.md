@@ -1,10 +1,10 @@
-# iD - friendly JavaScript editor for [OpenStreetMap](http://www.openstreetmap.org/)
+# iD - friendly JavaScript editor for [OpenStreetMap](http://jva-karte.herokuapp.com/)
 
 [![Build Status](https://secure.travis-ci.org/openstreetmap/iD.png)](https://travis-ci.org/openstreetmap/iD)
 
 ## Basics
 
-* iD is a JavaScript [OpenStreetMap](http://www.openstreetmap.org/) editor.
+* iD is a JavaScript [OpenStreetMap](http://jva-karte.herokuapp.com/) editor.
 * It's intentionally simple. It lets you do the most basic tasks while
   not breaking other people's data.
 * It supports modern browsers. Data is rendered with [d3](http://d3js.org/).
