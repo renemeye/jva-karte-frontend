@@ -203,7 +203,7 @@ module.exports = function(o) {
 
         o = _;
 
-        o.url = o.url || 'http://jva-karte.herokuapp.com';
+        o.url = o.url || 'https://jva-karte.herokuapp.com';
         o.landing = o.landing || 'land.html';
 
         o.singlepage = o.singlepage || false;
