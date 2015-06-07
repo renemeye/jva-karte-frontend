@@ -51,40 +51,40 @@ iD.ui.Commit = function(context) {
         commentField.node().select();
 
         // Warnings
-        var warnings = body.selectAll('div.warning-section')
-            .data([iD.validate(changes, context.graph())])
-            .enter()
-            .append('div')
-            .attr('class', 'modal-section warning-section fillL2')
-            .style('display', function(d) { return _.isEmpty(d) ? 'none' : null; })
-            .style('background', '#ffb');
-
-        warnings.append('h3')
-            .text(t('commit.warnings'));
-
-        var warningLi = warnings.append('ul')
-            .attr('class', 'changeset-list')
-            .selectAll('li')
-            .data(function(d) { return d; })
-            .enter()
-            .append('li')
-            .style()
-            .on('mouseover', mouseover)
-            .on('mouseout', mouseout)
-            .on('click', warningClick);
-
-        warningLi.append('span')
-            .attr('class', 'alert icon icon-pre-text');
-
-        warningLi.append('strong').text(function(d) {
-            return d.message;
-        });
-
-        warningLi.filter(function(d) { return d.tooltip; })
-            .call(bootstrap.tooltip()
-                .title(function(d) { return d.tooltip; })
-                .placement('top')
-            );
+        // var warnings = body.selectAll('div.warning-section')
+        //     .data([iD.validate(changes, context.graph())])
+        //     .enter()
+        //     .append('div')
+        //     .attr('class', 'modal-section warning-section fillL2')
+        //     .style('display', function(d) { return _.isEmpty(d) ? 'none' : null; })
+        //     .style('background', '#ffb');
+        //
+        // warnings.append('h3')
+        //     .text(t('commit.warnings'));
+        //
+        // var warningLi = warnings.append('ul')
+        //     .attr('class', 'changeset-list')
+        //     .selectAll('li')
+        //     .data(function(d) { return d; })
+        //     .enter()
+        //     .append('li')
+        //     .style()
+        //     .on('mouseover', mouseover)
+        //     .on('mouseout', mouseout)
+        //     .on('click', warningClick);
+        //
+        // warningLi.append('span')
+        //     .attr('class', 'alert icon icon-pre-text');
+        //
+        // warningLi.append('strong').text(function(d) {
+        //     return d.message;
+        // });
+        //
+        // warningLi.filter(function(d) { return d.tooltip; })
+        //     .call(bootstrap.tooltip()
+        //         .title(function(d) { return d.tooltip; })
+        //         .placement('top')
+        //     );
 
         // Save Section
         var saveSection = body.append('div')

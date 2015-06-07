@@ -29,16 +29,16 @@ iD.ui.Splash = function(context) {
 
         var buttons = introModal.append('div').attr('class', 'modal-actions cf');
 
+        // buttons.append('button')
+        //     .attr('class', 'col6 walkthrough')
+        //     .text(t('splash.walkthrough'))
+        //     .on('click', function() {
+        //         d3.select(document.body).call(iD.ui.intro(context));
+        //         modal.close();
+        //     });
+        //
         buttons.append('button')
-            .attr('class', 'col6 walkthrough')
-            .text(t('splash.walkthrough'))
-            .on('click', function() {
-                d3.select(document.body).call(iD.ui.intro(context));
-                modal.close();
-            });
-
-        buttons.append('button')
-            .attr('class', 'col6 start')
+            .attr('class', 'col12 start')
             .text(t('splash.start'))
             .on('click', modal.close);
 
